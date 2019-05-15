@@ -1,0 +1,43 @@
+#main-container {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Coloca um item abaixo do outro */
+}
+
+#main-container form {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column; /* Coloca um item abaixo do outro */
+}
+
+#main-container form input {
+    height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 0px;  
+}
+
+#main-container form button {
+    
+    height: 48px;
+    background: #E91E63;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 10px;   
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+
+}
+
+#main-container form button:hover {
+    opacity: .8;
+}
